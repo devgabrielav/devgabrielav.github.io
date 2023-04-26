@@ -1,0 +1,29 @@
+.dif-type{
+    font-style:normal;
+    text-align: center;
+}
+body{
+    background-color: rgb(0, 46, 44);
+    color: rgb(228, 223, 218);
+}
+div{
+    text-align: center;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: -5px;
+}
+ul{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.links{
+    text-align: center;
+    line-height: 0px;
+    background-color: rgb(193, 102, 107);
+    color: black;
+    border-radius: 5px;
+}
