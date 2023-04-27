@@ -8,12 +8,6 @@ img {
     width: 160px;
 }
 
-.imag {
-    
-    width: 160px;
-    text-align: center;
-    display: flex;
-}
 
 .title {
     text-align: center;
@@ -21,21 +15,9 @@ img {
 }
 
 .box{
-    text-align: center;
-    width: 700px;
-     display: flex;
-    margin-left: 25%;
-    margin-bottom: 100px;
+      border: 5px solid white;
 }
- .legend {
-    text-align: center;
-    font-size: 16px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 450px;
-    margin-left: 5%;
-    margin-top: 5%;
-    display: flex;
-}
+
 
 ul {
     margin-left: 30px;
