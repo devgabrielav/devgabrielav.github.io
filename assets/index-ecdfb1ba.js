@@ -79,28 +79,28 @@ Error generating stack: `+i.message+`
   margin-left: 10px;
   text-align: center;
   width: 100px;
-`,Im="/assets/linkedin-logo-1bab7068.png";function Om(){return j.jsx(Rm,{children:j.jsxs($m,{children:[j.jsx(ya,{href:"https://www.linkedin.com/in/gabrielavicentini/",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:Im,alt:"Linkedin Logo"})}),j.jsx(ya,{href:"https://github.com/devgabrielav",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:"../../assets/github-mark-white.png",alt:"GitHub Logo"})})]})})}const jm=We.h2`
+`,Im="/assets/linkedin-logo-1bab7068.png",Om="/assets/github-mark-white-60d03f0f.png";function jm(){return j.jsx(Rm,{children:j.jsxs($m,{children:[j.jsx(ya,{href:"https://www.linkedin.com/in/gabrielavicentini/",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:Im,alt:"Linkedin Logo"})}),j.jsx(ya,{href:"https://github.com/devgabrielav",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:Om,alt:"GitHub Logo"})})]})})}const Dm=We.h2`
   color: white;
-`,Dm=We.img`
+`,Mm=We.img`
   border-radius: 100px;
   height: 220px;
   width: 200px;
-`,Mm=We.div`
+`,Fm=We.div`
   align-items: center;
   display: flex;
   justify-content: space-around;
   margin: auto;
   margin-top: 50px;
   width: 700px;
-`;function Fm(){return j.jsxs(Mm,{children:[j.jsxs("div",{children:[j.jsx(jm,{children:"Welcome to my Portfolio!"}),j.jsx("p",{children:"lorem ipsum"})]}),j.jsx(Dm,{src:"./src/assets/selfie.jpg",alt:"Foto de Gabriela"})]})}const Am=We.div`
+`,Am="/assets/selfie-32752b85.jpg";function Um(){return j.jsxs(Fm,{children:[j.jsxs("div",{children:[j.jsx(Dm,{children:"Welcome to my Portfolio!"}),j.jsx("p",{children:"lorem ipsum"})]}),j.jsx(Mm,{src:Am,alt:"Foto de Gabriela"})]})}const Bm=We.div`
   align-items: center;
   justify-content: center;
   display: flex;
 `,qe=We.img`
   height: 38px;
   width: 40px;
-`,Um=We.div`
+`,Hm=We.div`
   margin: auto;
   margin-top: 120px;
   width: 700px;
-`;function Bm(){return j.jsx(Um,{children:j.jsxs(Am,{children:[j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",alt:"HTML5 logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",alt:"Javascript logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",alt:"Typescript logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",alt:"React logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",alt:"Jest logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",alt:"Node.js logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",alt:"Express.js logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",alt:"MySQL logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg",alt:"Sequelize logo"})]})})}function Hm(){return j.jsxs(j.Fragment,{children:[j.jsx(Om,{}),j.jsx(Fm,{}),j.jsx(Bm,{})]})}Ki.createRoot(document.getElementById("root")).render(j.jsx(En.StrictMode,{children:j.jsx(Hm,{})}));
+`;function Vm(){return j.jsx(Hm,{children:j.jsxs(Bm,{children:[j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",alt:"HTML5 logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",alt:"Javascript logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",alt:"Typescript logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",alt:"React logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",alt:"Jest logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",alt:"Node.js logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",alt:"Express.js logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",alt:"MySQL logo"}),j.jsx(qe,{src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg",alt:"Sequelize logo"})]})})}function Wm(){return j.jsxs(j.Fragment,{children:[j.jsx(jm,{}),j.jsx(Um,{}),j.jsx(Vm,{})]})}Ki.createRoot(document.getElementById("root")).render(j.jsx(En.StrictMode,{children:j.jsx(Wm,{})}));
