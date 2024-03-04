@@ -1,4 +1,5 @@
 import { InitialTitle, Selfie, InitialBox } from './styles';
+import selfie from '../../assets/selfie.jpg';
 
 function Initial() {
   return (
@@ -7,7 +8,7 @@ function Initial() {
         <InitialTitle>Welcome to my Portfolio!</InitialTitle>
         <p>lorem ipsum</p>
       </div>
-      <Selfie src="/src/assets/selfie.jpg" alt="Foto de Gabriela" />
+      <Selfie src={ selfie } alt="Foto de Gabriela" />
     </InitialBox>
   );
 }
