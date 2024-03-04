@@ -79,7 +79,7 @@ Error generating stack: `+i.message+`
   margin-left: 10px;
   text-align: center;
   width: 100px;
-`;function Im(){return j.jsx(Rm,{children:j.jsxs($m,{children:[j.jsx(ya,{href:"https://www.linkedin.com/in/gabrielavicentini/",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:"./src/assets/linkedin-logo.png",alt:"Linkedin Logo"})}),j.jsx(ya,{href:"https://github.com/devgabrielav",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:"./src/assets/github-mark-white.png",alt:"GitHub Logo"})})]})})}const Om=We.h2`
+`;function Im(){return j.jsx(Rm,{children:j.jsxs($m,{children:[j.jsx(ya,{href:"https://www.linkedin.com/in/gabrielavicentini/",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:"../../assets/linkedin-logo.png",alt:"Linkedin Logo"})}),j.jsx(ya,{href:"https://github.com/devgabrielav",target:"_blank",rel:"noreferrer",children:j.jsx(ga,{src:"../../assets/github-mark-white.png",alt:"GitHub Logo"})})]})})}const Om=We.h2`
   color: white;
 `,jm=We.img`
   border-radius: 100px;
