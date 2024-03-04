@@ -5,8 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "tsc && vite build && gh-pages -d dist",
     "dev": "vite --open",
     "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview"
