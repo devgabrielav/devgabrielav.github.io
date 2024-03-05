@@ -3,10 +3,12 @@ import selfie from '../../assets/selfie.jpg';
 
 function Initial() {
   return (
-    <InitialBox>
+    <InitialBox id="beggining">
       <div>
-        <InitialTitle>Welcome to my Portfolio!</InitialTitle>
-        <p>lorem ipsum</p>
+        <InitialTitle>Olá! Bem vindo(a)!</InitialTitle>
+        <p>
+          Meu nome é Gabriela, sou Desenvolvedora Full Stack
+        </p>
       </div>
       <Selfie src={ selfie } alt="Foto de Gabriela" />
     </InitialBox>

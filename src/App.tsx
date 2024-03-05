@@ -1,13 +1,17 @@
 import Header from './components/Header/Header';
 import Initial from './components/Initial/Initial';
-import Technologies from './components/Technologies/Technologies';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <>
       <Header />
       <Initial />
-      <Technologies />
+      <About />
+      <Projects />
+      <Contact />
     </>
   );
 }
