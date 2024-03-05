@@ -1,4 +1,4 @@
-import { MainDiv } from '../../styles';
+import { MainDiv } from './styles';
 
 function Projects() {
   return (

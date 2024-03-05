@@ -76,11 +76,6 @@ export const Selfie = styled.img`
 
 export const InitialBox = styled.div`
   align-items: center;
-  background: rgba(90, 86, 86, 0.06);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   display: flex;
   height: 320px;
   justify-content: space-around;
@@ -92,17 +87,17 @@ export const InitialBox = styled.div`
     content : "";
     height:30%;
     width:30%;
-    opacity:0.4;
-    filter: blur(60px);
+    opacity:0.03;
+    filter: blur(170px);
   }
   &::after{
-    background-color:#00ffff;
+    background-color: #279eff;
     z-index: -1;
-    animation : ${backglow2} 15s ease infinite;
+    animation : ${backglow2} 25s ease infinite;
   }
   &::before{
     background-color:#ff0072;
     z-index: -2;
-    animation : ${backglow1} 8s ease infinite;
+    animation : ${backglow1} 16s ease infinite;
   }
 `;
